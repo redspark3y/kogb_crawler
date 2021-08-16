@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const cheerio = require('cheerio');
 const axios = require('axios');
-const port = 3131
 
 const gamesatisURL = "https://www.gamesatis.com/knight-online-goldbar"
 const gamesatisSERVER = [
@@ -189,6 +188,6 @@ app.get('/fiyat_Getir', (req, res) => {
     })
 })
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
-})
+app.listen(process.env.PORT || 3000, function(){
+    console.log("API Aktif.", this.address().port, app.settings.env);
+});

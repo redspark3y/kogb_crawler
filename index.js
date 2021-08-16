@@ -182,6 +182,9 @@ app.get('/fiyat_Getir', (req, res) => {
                     gamesatisGetir().then((response) => {
                         res.send(response);
                     })
+                    .finally(() => {
+                        priceArray = [];
+                    })
                 })
             })
         })

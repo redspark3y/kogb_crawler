@@ -31,17 +31,15 @@ const bynogameSERVER = [
 
 const klasgameURL = "https://www.klasgame.com/goldbar/knightonline/knight-online-gb-goldbar-premium-cash"
 const klasgameSERVER = [
-    'ALTAR',
-    'VEGA',
-    'SIRIUS',
-    'ARES',
-    'DIEZ',
-    'GORDION',
+    'ZERO',
+    'PANDORA',
+    'AGARTHA',
+    'FELIS',
+    'DRYADS',
     'DESTAN',
-    'ROSETTA',
-    'OLMYPIA',
-    'CYPHER',
-    'PATHOS',
+    'OREADS',
+    'MINARK',
+    'ZION',
 ]
 
 const yesilyurtURL = 'https://www.yesilyurtgame.com/oyun-parasi/knight-online-goldbar-gb';
